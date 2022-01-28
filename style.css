@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #18181d !important; 
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
